@@ -85,7 +85,7 @@
                 <h4 id="modal-title"></h4>
                 <p id="modal-description"></p>
                 <button class="close-modal">Close</button>
-                <button id="checkout-button">Check Out</button>
+                <button id="buynow-button">Buy now</button>
             </div>
         </div>
         
@@ -98,7 +98,7 @@
             const modalTitle = document.getElementById('modal-title');
             const modalDescription = document.getElementById('modal-description');
             const closeModalBtn = document.querySelector('.close-modal');
-            const checkoutButton = document.getElementById('checkout-button');
+            const buynowButton = document.getElementById('buynow-button');
         
             products.forEach(product => {
                 product.addEventListener('click', () => {
@@ -120,8 +120,8 @@
                 }
             });
         
-            checkoutButton.addEventListener('click', () => {
-                alert('Proceeding to checkout!'); 
+            buynowButton.addEventListener('click', () => {
+                alert('Proceeding to buy now!'); 
             });
         </script>
 

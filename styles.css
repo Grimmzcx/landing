@@ -273,7 +273,7 @@ nav ul li a:hover {
     background-color: darkgreen;
 }
 
-#checkout-button {
+#buynow-button {
     background-color: #4CAF50; /* Green */
     color: white; 
     padding: 10px 15px; 
@@ -283,7 +283,7 @@ nav ul li a:hover {
     margin-top: 10px; /* Space above the button */
 }
 
-#checkout-button:hover {
+#buynow-button:hover {
     background-color: #45a049; /* Darker Green */
 }
 
